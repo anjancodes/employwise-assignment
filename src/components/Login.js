@@ -61,7 +61,7 @@ function Login() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full p-2 border rounded-md focus:ring focus:ring-blue-300 focus:outline-none transition-colors"
-              placeholder="eve.holt@reqres.in"
+              placeholder="Enter your email"
               required
               aria-label="Email"
             />
@@ -75,7 +75,7 @@ function Login() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full p-2 border rounded-md focus:ring focus:ring-blue-300 focus:outline-none transition-colors"
-              placeholder="cityslicka"
+              placeholder="Enter your password"
               required
               aria-label="Password"
             />
